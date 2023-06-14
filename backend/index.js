@@ -15,11 +15,11 @@ app.use((req,res,next) =>{
 app.use(bodyParser.urlencoded({extended : true}))
 app.use(bodyParser.json())
 //routes
-app.use('/api/workout', workoutRoutes)
+app.use('/api/workouts', workoutRoutes)
 
 
 
 
 app.listen(process.env.PORT, () => {
-    console.log("Workout app is listening on port",process.env.PORT)
+    console.log( `Workout app is listening on port,${process.env.PORT}` )
 })
