@@ -30,3 +30,9 @@ header a{
   padding: 20px;
   margin: 0 auto;
 }
+.home{
+  display: flex;
+}
+.home div{
+  width: 50%;
+}
